@@ -17,7 +17,7 @@ primary_region = 'iad'
   processes = ['app']
   
 [env]
-  LOG_MODE = short
+  LOG_MODE = 'short'
   PORT = 8080
 
 [[vm]]
