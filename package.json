@@ -26,12 +26,16 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-    "tsconfig-paths": "^4.2.0"
+    "morgan": "^1.10.0",
+    "tsconfig-paths": "^4.2.0",
+    "vhost": "^3.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.11.2",
     "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
     "@types/node": "^22.10.1",
+    "@types/vhost": "^3.0.9",
     "eslint": "^9.15.0",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
