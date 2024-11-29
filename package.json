@@ -29,6 +29,7 @@
     "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^3.11.2",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
     "eslint": "^9.15.0",
