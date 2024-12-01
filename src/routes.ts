@@ -14,7 +14,11 @@ router.get(/\/li/, async (req, res) => {
   res.redirect(301, socials.linkedin);
 });
 
-router.get(/\/(gh|git(hub)?|codes?)/, async (req, res) => {
+router.get('/:key(gh|github|git|code|codes)/:repo', async (req, res) => {
+  res.redirect(301, `${socials.github}/${req.params.repo}`);
+});
+
+router.get('/:key(gh|github|git|code|codes)', async (req, res) => {
   res.redirect(301, socials.github);
 });
 
